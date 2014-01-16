@@ -374,7 +374,6 @@ ul {
   padding-bottom: 30px;
 }
 .main {
-  outline: 1px solid red;
   margin-bottom: 25px;
 }
 /*** HEADER ***/
@@ -432,6 +431,10 @@ ul {
 }
 .slider img {
   margin-bottom: 12px;
+}
+#cycle-2 img {
+  width: 140px !important;
+  height: 140px !important;
 }
 /*** SIDE BAR ***/
 .sidebar div {

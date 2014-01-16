@@ -4,6 +4,7 @@
 		<meta charset=utf-8>
 		<title>Residency Unlimited</title>
 		<link rel="stylesheet" href="style.css">
+		
 	</head>
 	<body>
 		<div class="width">
@@ -80,6 +81,7 @@
 			</div><!--end header-->
 
 			<div class="main width clearfix">
+			
 
 				<h2 class="text-center">Alumni News</h2>
 				
@@ -88,21 +90,47 @@
 
 					<p>Pamela Flores / 10/01/14</p>
 				</div>
-
+				
 				<div class="slider">
 
-					<img class="col_12" src="images/main_image.png">
+                    <div id="slideshow-1">
 
-					<div class="width clearfix">
-						<img class="side_margins left" src="images/image.png">
-						<img class="side_margins left" src="images/image.png">
-						<img class="side_margins left" src="images/image.png">
-						<img class="side_margins left" src="images/image.png">
-						<img class="side_margins left" src="images/image.png">
-						<img class="side_margins left" src="images/image.png">
-					</div><!--slider-->
+	                    <div id="cycle-1" class="width clearfix cycle-slideshow"
+				        data-cycle-timeout="0"
+				        data-cycle-fx="scrollHorz">
 
-				</div><!--slider-->
+	                        <img class="side_margins left" src="images/main_image_2.png">
+	                        <img class="side_margins left" src="images/main_image.png">
+	                        <img class="side_margins left" src="images/main_image_2.png">
+	                        <img class="side_margins left" src="images/main_image.png">
+	                        <img class="side_margins left" src="images/main_image_2.png">
+	                        <img class="side_margins left" src="images/main_image.png">
+
+	                    </div><!--slider-->
+
+	                </div>
+
+                    <div id="slideshow-2">
+
+	                    <div id="cycle-2" class="width clearfix cycle-slideshow"
+				        data-cycle-timeout="0"
+				        data-cycle-fx="carousel"
+				        data-cycle-carousel-visible="6"
+				        data-cycle-carousel-fluid=true
+				        data-allow-wrap="false">
+
+	                        <img class="side_margins left" src="images/image_2.png">
+	                        <img class="side_margins left" src="images/image.png">
+	                        <img class="side_margins left" src="images/image_2.png">
+	                        <img class="side_margins left" src="images/image.png">
+	                        <img class="side_margins left" src="images/image_2.png">
+	                        <img class="side_margins left" src="images/image.png">
+
+	                    </div><!--slider-->
+
+	                </div>
+
+                </div><!--slider-->
 				
 				<div class="margin_10_20 col_8 left">
 					<p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Fuscemolestie enim eu lectus condimentumlacinia. Nunc ac consequat augue, necfeugiat dolor. Phasellus auctor odioeros, vitae commodo nisi congue a.Donec pellentesque massa quis ligulaeleifend eleifend. Nullampellentesque turpis ac nuncscelerisque porta. Donec vitaerhoncus nisl. Vestibulum malesuadarisus at nulla pretium, vel conguepurus consequat. Nam quis neque sedsapien ullamcorper sagittis. Sed aurna nec nulla vehicula vestibulum.Duis eleifend libero eros, avestibulum risus ultricies a. Donecvelit ligula, vehicula non turpis ac,cursus iaculis magna.</p>
@@ -161,5 +189,12 @@
 			</div><!--end main-->
 
 		</div><!--end wrap-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+		<script src="jquery.cycle2.js"></script>
+		<script src="jquery.cycle2.carousel.js"></script>
+		<script src="js/functions.js"></script>
+
+
 	</body>
 </html>
