@@ -293,23 +293,49 @@ figure {
 .text-center {
   text-align: center;
 }
-.col_2 {
-  width: 16%;
+.margin_bottom_86 {
+  margin-bottom: 86px;
+}
+.margin_bottom_60 {
+  margin-bottom: 60px !important;
+}
+.margin_bottom_40 {
+  margin-bottom: 40px !important;
+}
+.margin_bottom_10 {
+  margin-bottom: 10px;
+}
+.margin_10_20 {
+  margin: 0 10px 20px 10px;
+}
+.side_margins {
+  margin: 0 10px;
+}
+.margin-auto {
+  margin: 0 auto;
 }
 .col_3 {
   width: 23%;
+  margin: 0 1%;
+}
+.col_4 {
+  width: 43%;
+  margin: 0 1%;
 }
 .col_6 {
   width: 48%;
-  margin: 0 9px;
+  margin: 0 1%;
 }
 .col_8 {
-  width: 65%;
-  margin: auto;
+  width: 66%;
 }
 .col_9 {
   width: 75%;
   margin: auto;
+}
+.col_12 {
+  width: 98%;
+  margin: 0 1%;
 }
 /*** GENERAL ***/
 h1 {
@@ -317,7 +343,7 @@ h1 {
   margin: 0;
 }
 h2 {
-  margin: 0 0 55px 0;
+  margin: 0 0 50px 0;
   font-size: 50px;
   color: #000;
   text-transform: uppercase;
@@ -329,6 +355,7 @@ h3 {
   text-transform: uppercase;
 }
 h4 {
+  margin: 0 0 15px 0;
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -365,7 +392,7 @@ ul {
   color: transparent;
   border: none;
 }
-.search input[type="text"] {
+.search .search_field {
   position: relative;
   left: 2px;
   height: 20px;
@@ -391,13 +418,6 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
 }
-/*** MAIN ***/
-.section {
-  margin-bottom: 60px;
-}
-.section div {
-  margin: 0 10px 20px 10px;
-}
 /*** FOOTER ***/
 .footer {
   width: 100%;
@@ -405,56 +425,17 @@ ul {
   padding: 40px 0 30px 0;
   color: #fff;
 }
-.inner_footer {
-  margin-bottom: 75px;
-}
-.inner_footer div {
-  margin: 0 9px;
-}
-.inner_footer div h4 {
-  margin-bottom: 11px;
-}
 /*** SLIDER.HTML ***/
-/*** MAIN ***/
-.titles {
-  margin: 0 10px;
-}
-.titles h4 {
-  margin-bottom: 14px;
-}
 /*** SLIDER ***/
 .slider {
   margin-bottom: 23px;
 }
 .slider img {
-  margin: 0 10px;
   margin-bottom: 12px;
 }
-.side_margins {
-  margin: 0 10px;
-}
-/*** ALUMNI PARRAGRAPH ***/
-.alumni_parragraph {
-  margin: 0 10px 30px 10px;
-}
 /*** SIDE BAR ***/
-.sidebar {
-  width: 23%;
-  margin: 0 10px;
-}
-.sidebar h5,
 .sidebar div {
   margin-bottom: 14px;
-}
-/*** RELATED POSTS ***/
-.related_posts {
-  margin: 0 10px;
-}
-.related_posts h5 {
-  margin-bottom: 15px;
-}
-.related_img {
-  margin: 0 10px;
 }
 /*** FORM.HTML ***/
 /*** SUBMENU ***/
@@ -469,20 +450,7 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
 }
-/*** SIGN UP INFO ***/
-.signup_info {
-  margin-bottom: 44px;
-}
-.signup_info div h4 {
-  margin-bottom: 10px;
-}
 /*** FORM ***/
-.div_forms {
-  margin: 0 9px;
-}
-.div_forms form div {
-  margin: 0 0 13px 0;
-}
 /**** LABEL ***/
 label {
   display: block;
@@ -492,53 +460,31 @@ label {
 /**** TEXTAREA ***/
 textarea {
   width: 100%;
+  height: 200px;
   border: none;
   padding: 5px;
   background: #e6e6e6;
 }
 /*** INPUT ****/
-.div_forms .input_text_form,
-input[type="email"] {
+.div_forms input {
+  display: block;
   width: 100%;
   height: 40px;
+  padding: 5px;
   border: none;
-  padding: 0 5px;
   background: #e6e6e6;
 }
 .div_forms input[type="submit"] {
-  display: block;
-  height: 40px;
+  width: 140px;
   margin: auto;
-  border: none;
   background: #969696;
   color: #fff;
 }
-.div_ forms input[type="submit"]:hover {
-  display: block;
-  height: 40px;
-  margin: auto;
-  border: none;
-  background: #e6e6e6;
+.div_forms input[type="submit"]:hover {
   color: #969696;
+  background: #e6e6e6;
 }
 /*** SPAN ***/
 span {
   color: #969696;
-}
-/**** ABOUT:HTML****/
-.image {
-  margin: 0 10px 44px 10px;
-}
-.section .about_parragraph {
-  margin: 0 9px;
-}
-/**** SPECIFICS ***/
-.margin_bottom {
-  margin-bottom: 86px;
-}
-.margin_bottom_about {
-  margin-bottom: 39px;
-}
-.margin_bottom_opportunities {
-  margin-bottom: 65px;
 }

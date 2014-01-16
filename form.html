@@ -6,9 +6,9 @@
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div>
+		<div class="width">
 
-			<div class="header margin_bottom_opportunities width clearfix">
+			<div class="header margin_bottom_60 clearfix">
 
 				<h1 class="left">
 					<a href="index.html">
@@ -20,7 +20,7 @@
 					
 					<form class="search right">
 
-						<input type="text" name="busqueda"/>
+						<input type="text" name="search" class="search_field"/>
 						<input type="submit" class="search_button"/>
 
 					</form><!--end search-->
@@ -82,120 +82,97 @@
 			<div class="main width clearfix">
 
 				<h2 class="text-center">Opportunities</h2>
-
-					<div class="submenu width">
 						
-						<ul class="col_8 text-center clearfix">
+				<ul class="submenu margin-auto col_8 text-center clearfix">
 
-							<li>
-								<a href="#">Submenu</a>
-							</li>
+					<li>
+						<a href="#">Submenu</a>
+					</li>
 
-							<li>
-								<a href="#">Submenu2</a>
-							</li>
-							<li>
-								<a href="#">Submenu3</a>
-							</li>
-							<li>
-								<a href="#">Submenu4</a>
-							</li>
-							<li>
-								<a href="#">Submenu5</a>
-							</li>
-							<li>
-								<a href="#">Submenu6</a>
-							</li>
+					<li>
+						<a href="#">Submenu2</a>
+					</li>
+					<li>
+						<a href="#">Submenu3</a>
+					</li>
+					<li>
+						<a href="#">Submenu4</a>
+					</li>
+					<li>
+						<a href="#">Submenu5</a>
+					</li>
+					<li>
+						<a href="#">Submenu6</a>
+					</li>
 
-						</ul>
+				</ul>
 
-					</div><!-- end submenu -->
 					
-					<h3 class="text-center">Sign Up</h3>
+				<h3 class="text-center">Sign Up</h3>
+				
+				<div class="margin_bottom_40 clearfix">
 					
-					<div class="signup_info clearfix">
-						
-						<div class="col_6 left">
-							<h4>Title</h4>
-							<p>Lorem ipsum		dolor sit amet,consecteturadipiscing 		elit. Namornare leo necodio 		consequatporttitor. Proinscelerisque 		luctusest et aliquet.Morbi enim 		mauris,aliquam velelementum ut, 		rhoncusvel lectus.</p>
-						</div>
+					<div class="col_6 left">
+						<h4>Title</h4>
+						<p>Lorem ipsum		dolor sit amet,consecteturadipiscing 		elit. Namornare leo necodio 		consequatporttitor. Proinscelerisque 		luctusest et aliquet.Morbi enim 		mauris,aliquam velelementum ut, 		rhoncusvel lectus.</p>
+					</div>
 
-						<div class="col_6 left">
-							<h4>Title</h4>
-							<p>Lorem ipsum		dolor sit amet,consecteturadipiscing 		elit. Namornare leo necodio 		consequatporttitor. Proinscelerisque 		luctusest et aliquet.Morbi enim 		mauris,aliquam velelementum ut, 		rhoncusvel lectus.</p>
-						</div>
+					<div class="col_6 left">
+						<h4>Title</h4>
+						<p>Lorem ipsum		dolor sit amet,consecteturadipiscing 		elit. Namornare leo necodio 		consequatporttitor. Proinscelerisque 		luctusest et aliquet.Morbi enim 		mauris,aliquam velelementum ut, 		rhoncusvel lectus.</p>
+					</div>
 
 				</div><!--SIGNUP INFO-->
 
-				<div class="section clearfix">
+				<div class="margin_bottom_60 clearfix">
 
 					<div class="div_forms col_6 left">
 						<form>
-							<div>
 
-								<label>¿Pregunta 1? <span>(required)</span></label>
-								<select>
-									<option>Opción1</option>
-									<option>Opción2</option>
-									<option>Opción3</option>
-								</select>
+							<label>¿Pregunta 1? <span>(required)</span></label>
+							<select class="margin_bottom_10">
+								<option>Opción1</option>
+								<option>Opción2</option>
+								<option>Opción3</option>
+							</select>
 
-							</div>
+							<label>Comentario <span>(required)</span></label>
+							<textarea  class="margin_bottom_10"></textarea>
 
-							<div>
+							<label>Nombre</label>
+							<input type='text' name="nombre" class="margin_bottom_10"/>
 
-								<label>Comentario <span>(required)</span></label>
-								<textarea rows="5" width='100%'></textarea>
+							<label>Apellido</label>
+							<input type='text' name='apellido' class="margin_bottom_10"/>
 
-							</div>
-
-							<div>
-
-								<label>Nombre</label>
-								<input type='text' name="nombre" class="input_text_form"/>
-
-							</div>
-
-							<div>
-
-								<label>Apellido</label>
-								<input type='text' name='apellido' class="input_text_form"/>
-
-							</div>
-
-							<input type='submit' value='Submit &#187;' class="col_2"/>
+							<input type='submit' value='Submit &#187;'/>
 
 						</form>
 					</div>
 
 					<div class="div_forms col_6 left">
+
 						<form>
 
-							<div>
+							<label>Dejanos tu correo <span>(required)</span></label>
+							<input class="margin_bottom_10" type='email' name="mail"/>
 
-								<label>Dejanos tu correo <span>(required)</span></label>
-								<input type='email' name="mail"/>
+							<label>Otro texto</label>
+							<input type='text' class="margin_bottom_10"/>
 
-							</div>
-
-							<div>
-
-								<label>Otro texto</label>
-								<input type='text' class="input_text_form"/>
-
-							</div>
-
-							<input type='submit' value='Submit &#187;'  class="col_2"/>
+							<input type='submit' value='Submit &#187;'/>
 
 						</form>
+
 					</div>
 					
 				</div><!-- end Forms-->
 
 			</div><!--end main-->
 
-			<div class ="footer">
-				<div class="inner_footer width clearfix">
+		</div><!--end width-->
+		<div class ="footer">
+				<div class="margin_bottom_60 width clearfix">
 	
 					<div class="left col_3">
 						<h4>Title</h4>
@@ -228,6 +205,5 @@
 				</div>
 
 			</div><!--end footer-->
-		</div>
 	</body>
 </html>
