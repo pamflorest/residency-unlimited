@@ -79,16 +79,15 @@ figure {margin: 0;}
 .side_margins{ margin: 0 10px; }
 .margin-auto{ margin: 0 auto;}
 
-.col_3{ width: 23%; margin:0 1%; }
+.col_3{ width: 22%; margin:0 1%; }
 .col_4{ width: 43%; margin: 0 1%; }
 .col_6{ width: 48%; margin: 0 1%; }
 .col_8{ width: 66%; }
-.col_9{ width: 75%; margin: auto; }
+.col_9{ width: 73%; margin: auto; }
 .col_12{ width:98%; margin: 0 1%; }
 
 /*** GENERAL ***/
 
-h1{ width: 22%; margin: 0; }
 h2{ margin: 0 0 50px 0; font-size: 50px; color:#000; text-transform: uppercase; letter-spacing: 17px;}
 h3{ margin: 0 0 47px 0; font-size: 24px; text-transform: uppercase;}
 h4{ margin: 0 0 15px 0;font-size: 18px; text-transform: uppercase; }
@@ -99,7 +98,7 @@ ul{ list-style: none; }
 .width{ width:960px; margin:auto; }
 
 .wrap{ padding-bottom: 30px;}
-.main{ margin-bottom: 25px;}
+.main{ padding-bottom: 25px;}
 
 /*** HEADER ***/
  .menu{ margin: 39px 10px 0 10px; }
@@ -128,12 +127,10 @@ ul{ list-style: none; }
 /*** SLIDER.HTML ***/
 
 /*** SLIDER ***/
-.slider{ margin-bottom: 23px;
-	img{ margin-bottom: 12px; }	
- }
+.slider{ margin-bottom: 23px; }
 
- #cycle-2{
-	img{ width: 140px !important; height: 140px !important; }
+ #slideshow-2{	width: auto; height: auto;
+ 	img{ padding: 0 10px; }
 }
 
 /*** SIDE BAR ***/
@@ -153,9 +150,6 @@ ul{ list-style: none; }
 }
 
 /*** FORM ***/
-
-
-
 /**** LABEL ***/
 label{ display: block; margin-bottom: 13px ; font-size: 16px; }
 
@@ -166,7 +160,7 @@ textarea{ width: 100%; height: 200px; border: none; padding: 5px; background: @c
 /*** INPUT ****/
 .div_forms{
 	input{ display:block; width: 100%; height: 40px; padding: 5px; border: none; background: @claro; }
-	input[type="submit"]{ width:140px;  margin: auto; background: @oscuro; color: #fff;
+	input[type="submit"]{ width:140px;  margin: 0 auto 20px auto; background: @oscuro; color: #fff;
 		&:hover{ color: @oscuro; background: @claro; }
 	}
 }
@@ -185,19 +179,96 @@ and (max-width : 1024px) {
 
 @media only screen 
 and (max-width : 768px) {
-	
-	h1{ float:none !important; margin-left: auto; margin-right: auto; }
 
-	.menu{ float: none;
+	/**** FRAMEWORK ***/
+	
+	.width{ width:100%; margin:auto; }
+
+	.margin_10_20{ margin:0 15px 20px 15px; }
+	.margin_bottom_86{ margin-bottom: 50px;}
+
+	.col_3{ width: 31%; margin: 0 auto;}
+	.col_8{ width: 55%; }
+	.col_9{ width:60%; margin: 0 auto;}
+
+
+	/**** GENERAL ***/
+	h1{ float:none !important ;margin-bottom: 40px !important; }
+	h2{ margin: 0 0 50px 0; font-size: 30px; color:#000; text-transform: uppercase; letter-spacing: 17px }
+
+
+	/**** MENU ***/
+	.menu{ float: none; margin-bottom: 40px !important;
 		form{ display: none; }
 	}
-	.redes{ clear: both; position: relative; top: 100px; margin:0 auto 15px auto;}
-	.col_9{ width:60%; margin: 0 auto;}
+
+	/**** REDES ***/
+	.redes{ float: none !important; width:30%; margin: 0 auto 50px auto; }
+
+	/**** NAV ****/
+	.nav{ float: none; text-align: center;
+		li{ float: none; display: inline-block; margin-bottom: 10px; }
+	 }
+
+	 /*** SUBMENU ***/
+	 .submenu{
+	 	li{ margin-bottom: 10px; }
+	 }
+
+	 /*** FOOTER ***/
+	 .footer > div{ width:80%; margin: 0 auto; 
+	 	> div{ width: 45%; margin: 0 2% 20px 2%; }
+	 }
+
+	 /*** INDEX QUERY SPECIAL ***/
+	 .index_query_special{ width:67%; margin: 0 auto 20px auto; }
+
 }
 
 @media only screen 
 and (max-width : 480px) {
 
+	/**** FRAMEWORK ****/
+	.width{ width:100%; margin:auto; }
+
+	.margin_10_20 { margin: 0 15% 20px 15%; }
+
+	.col_3{ width: 48%; margin: 0 auto;}
+	.col_6{ width: 99%; margin: 0 1%}
+	.col_8{ width: 72%; }
+
+	/**** GENERAL ***/
+	h2{ margin: 0 0 50px 0; font-size: 30px; color:#000; text-transform: uppercase; letter-spacing: 10px }
+
+	.main{
+		.right{ float: none; margin-bottom: 40px;}
+	}
+	
+	/**** REDES ***/
+	.redes{ float: none !important; width:40%; margin: 0 auto 50px auto; }
+
+	/*** FOOTER ***/
+	 .footer > div{ width:98%; margin: 0 auto; 
+	 	> div{ width: 100%; margin: 0 2% 20px 2%; }
+	 }
+
+	/*** INDEX QUERY SPECIAL ***/
+	.index_query_special{ width:67%; margin: 0 auto 20px auto; text-align: center; }
+
+	.related_posts_query{ 
+		div{ position:relative; left: 70px;}
+	}
+
+	.image_query{ margin-bottom: 20px; }
+
 }
+
+
+
+
+
+
+
+
 
 
