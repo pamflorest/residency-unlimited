@@ -491,3 +491,33 @@ textarea {
 span {
   color: #969696;
 }
+/*** Media Queries ***/
+@media only screen and (max-width: 1024px) {
+  
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu {
+    float: none;
+  }
+  .menu form {
+    display: none;
+  }
+  .redes {
+    clear: both;
+    position: relative;
+    top: 100px;
+    margin: 0 auto 15px auto;
+  }
+  .col_9 {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  
+}
