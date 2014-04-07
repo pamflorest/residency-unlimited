@@ -1,0 +1,40 @@
+/*
+YUI 3.5.1 (build 22)
+Copyright 2012 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-small;color:#ccc;}select,input,button,textarea{font:99% arial,helvetica,clean,sans-serif}table{font-size:inherit;font:100%}pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%}#yui3-css-stamp.cssfonts{display:none}
+
+@font-face {
+	font-family: 'SinewsSansPro';
+	src: url('../fonts/sinewssanspro-webfont.eot');
+	src: url('../fonts/sinewssanspro-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/sinewssanspro-webfont.woff') format('woff'),
+		 url('../fonts/sinewssanspro-webfont.ttf') format('truetype'),
+		 url('../fonts/sinewssanspro-webfont.svg#SinewsSansPro') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'LeituraSans';
+	src: url('../fonts/leiturasans-grot_1-webfont.eot');
+	src: url('../fonts/leiturasans-grot_1-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leiturasans-grot_1-webfont.eot.woff') format('woff'),
+		 url('../fonts/leiturasans-grot_1-webfont.ttf') format('truetype'),
+		 url('../fonts/leiturasans-grot_1-webfont.svg#LeituraSans') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cibreo';
+	src: url('../fonts/cibreo_-webfont.eot');
+	src: url('../fonts/cibreo_-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/cibreo_-webfont.woff') format('woff'),
+		 url('../fonts/cibreo_-webfont.ttf') format('truetype'),
+		 url('../fonts/cibreo_-webfont.svg#Cibreo') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

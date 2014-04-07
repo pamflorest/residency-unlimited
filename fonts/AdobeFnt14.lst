@@ -1,0 +1,293 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialNarrow
+FamilyName:Arial Narrow
+StyleName:Regular
+MenuName:Arial Narrow
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Arial Narrow
+WritingScript:Roman
+OutlineFileName:\Arial Narrow
+DataFormat:sfntResource
+ResourceID:2000
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialNarrow-Bold
+FamilyName:Arial Narrow
+StyleName:Bold
+MenuName:Arial Narrow
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Arial Narrow Bold
+WritingScript:Roman
+OutlineFileName:\Arial Narrow
+DataFormat:sfntResource
+ResourceID:2001
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialNarrow-Italic
+FamilyName:Arial Narrow
+StyleName:Italic
+MenuName:Arial Narrow
+StyleBits:1
+WeightClass:400
+WidthClass:3
+AngleClass:1
+FullName:Arial Narrow Italic
+WritingScript:Roman
+OutlineFileName:\Arial Narrow
+DataFormat:sfntResource
+ResourceID:2002
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialNarrow-BoldItalic
+FamilyName:Arial Narrow
+StyleName:Bold Italic
+MenuName:Arial Narrow
+StyleBits:3
+WeightClass:700
+WidthClass:3
+AngleClass:1
+FullName:Arial Narrow Bold Italic
+WritingScript:Roman
+OutlineFileName:\Arial Narrow
+DataFormat:sfntResource
+ResourceID:2003
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:ArialNarrow
+OutlineFileName:\Arial Narrow
+ResourceID:2000
+MacStyle:0
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:ArialNarrow-Bold
+OutlineFileName:\Arial Narrow
+ResourceID:2000
+MacStyle:1
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:ArialNarrow-Italic
+OutlineFileName:\Arial Narrow
+ResourceID:2000
+MacStyle:2
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Suitcase
+FontName:ArialNarrow-BoldItalic
+OutlineFileName:\Arial Narrow
+ResourceID:2000
+MacStyle:3
+FileLength:296865
+FileModTime:1333332000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:cibreo
+FamilyName:cibreo
+StyleName:Regular
+MenuName:cibreo
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:cibreo
+WritingScript:Roman
+OutlineFileName:\cibreo_.ttf
+DataFormat:sfntData
+FileLength:79892
+FileModTime:1391173054
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:LeituraSans-Grot1
+FamilyName:Leitura Sans
+StyleName:Grot 1
+MenuName:Leitura Sans Grot 1
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Leitura Sans Grot 1
+WritingScript:Roman
+OutlineFileName:\leiturasans-grot 1.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:49504
+FileModTime:1391173054
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:LeituraSans-Grot2
+FamilyName:Leitura Sans
+StyleName:Grot 2
+MenuName:Leitura Sans Grot 2
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Leitura Sans Grot 2
+WritingScript:Roman
+OutlineFileName:\leiturasans-grot 2.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:50028
+FileModTime:1391141272
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:LeituraSans-Grot3
+FamilyName:Leitura Sans
+StyleName:Grot 3
+MenuName:Leitura Sans Grot 3
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Leitura Sans Grot 3
+WritingScript:Roman
+OutlineFileName:\leiturasans-grot 3.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:50236
+FileModTime:1391141272
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:LeituraSans-Grot4
+FamilyName:Leitura Sans
+StyleName:Grot 4
+MenuName:Leitura Sans Grot 4
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Leitura Sans Grot 4
+WritingScript:Roman
+OutlineFileName:\leiturasans-grot 4.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:49628
+FileModTime:1391141272
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SinewsSansPro-Medium
+FamilyName:Sinews Sans Pro
+StyleName:Medium
+MenuName:Sinews Sans Pro Medium
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Sinews Sans Pro Medium
+WritingScript:Roman
+OutlineFileName:\SinewsSansPro-1000wt_Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:111980
+FileModTime:1327373805
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SinewsSansPro-MediumItalic
+FamilyName:Sinews Sans Pro
+StyleName:Medium Italic
+MenuName:Sinews Sans Pro Medium Italic
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Sinews Sans Pro Medium Italic
+WritingScript:Roman
+OutlineFileName:\SinewsSansPro-1000wt_Medium_Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:119408
+FileModTime:1327373782
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SinewsSansPro-Regular
+FamilyName:Sinews Sans Pro
+StyleName:Regular
+MenuName:Sinews Sans Pro Regular
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Sinews Sans Pro Regular
+WritingScript:Roman
+OutlineFileName:\SinewsSansPro-720wt_Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:113276
+FileModTime:1327373798
+%EndFont
+
